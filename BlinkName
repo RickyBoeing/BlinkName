@@ -1,0 +1,100 @@
+// SIT210 Task 2.1P Ricky Boeing
+SYSTEM_THREAD(ENABLED);
+
+// The setup() method is called once when the device boots.
+void setup()
+{
+	// In order to set a pin, you must tell Device OS that the pin is
+	// an OUTPUT pin. This is often done from setup() since you only need
+	// to do it once.
+	pinMode(MY_LED, OUTPUT);
+}
+
+// The loop() method is called frequently.
+void loop()
+{
+    // R
+	digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500);
+	
+    digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500);
+	
+	digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+    // I
+    digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+	digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+    // C
+	digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+	digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+	digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+
+	digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+    // K
+	digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+    
+    digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+	digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+    // Y
+ 	digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500);    
+    
+    digitalWrite(MY_LED, HIGH);
+	delay(500);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+
+ 	digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+	
+ 	digitalWrite(MY_LED, HIGH);
+	delay(1000);
+	digitalWrite(MY_LED, LOW);
+	delay(500); 
+}
